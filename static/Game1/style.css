@@ -1,0 +1,67 @@
+.droparea {
+    width:700px;
+    height:300px;
+    margin-left:140px;
+    margin-top: 150px;
+    border:1px solid lightblue;
+    vertical-align:top;
+    float: left;
+    font-size: 20px;
+    background-color: lightblue;
+
+}
+.picturediv {
+    float: left;
+    left: 100px;
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    display: block;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+#board{
+    margin-left: 150px;
+    text-align: center;
+}
+.pictures{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    cursor: move;
+}
+p {
+    color: gold;
+    position: absolute;
+    left: 10px;
+    font-size: 2em;
+    font-family: "Ubuntu Light";
+}
+h1{
+    color: gold;
+    position: absolute;
+    right: 10px;
+    font-size: 2em;
+    font-family: "Ubuntu Light";
+}
+h2{
+    color: #b366ff;
+    font-family: "Ubuntu Light";
+    text-align: end;
+    margin-top: 1px;
+
+}
+body{
+    background-color:  #ccffff;
+}
+button{
+    border-radius: 6px;
+    border: 1px solid #268a16;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    background-color: greenyellow;
+}
