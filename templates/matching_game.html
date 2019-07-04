@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Testing</title>
+  <link rel="stylesheet" type="text/css" href="/static/Game1/style.css">
+  <script type="text/javascript" src="/static/Game1/matching_game.js"></script>
+</head>
+
+<body>
+    <h1>Level-<text id="level">1</text></h1>
+    <p class="theScore">Score: <text id="score">0</text></p>
+    <div id="board">
+        <div class="picturediv">
+            <img height="40px" width="40px" src="/static/Game1/cat.png" class="pictures animal" id="animal-1" draggable="true" ondragstart="drag(event)">
+        </div>
+        <div class="picturediv">
+            <img height="40px" width="40px" src="dog.png" class="pictures animal" id="animal-2" draggable="true" ondragstart="drag(event)">
+        </div>
+        <div class="picturediv">
+            <img height="40px" width="40px" src="bird.png" class="pictures animal" id="animal-3" draggable="true" ondragstart="drag(event)">
+        </div>
+        <div class="picturediv">
+            <img height="40px" width="40px" src="tree.png" class="pictures plant" id="plant-1" draggable="true" ondragstart="drag(event)">
+        </div>
+        <div class="picturediv">
+            <img height="40px" width="40px" src="cactus.png" class="pictures plant" id="plant-2" draggable="true" ondragstart="drag(event)">
+        </div>
+        <div class="picturediv">
+            <img height="40px" width="40px" src="flower.png" class="pictures plant" id="plant-3" draggable="true" ondragstart="drag(event)">
+        </div>
+        <div class="picturediv">
+            <img height="40px" width="40px" src="rabbit.png" class="pictures animal" id="animal-4" draggable="true" ondragstart="drag(event)">
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="droparea animal" ondrop="drop(event)" ondragover="allowDrop(event)"><h2><text id="droparea-1">ANIMALS</text></h2></div>
+    <div class="droparea plant"  ondrop="drop(event)" ondragover="allowDrop(event)"><h2><text id="droparea-2">PLANTS</text></h2></div>
+    <br><br>
+    <button onclick="nextlvl()">DONE</button>
+</body>
+
+</html>

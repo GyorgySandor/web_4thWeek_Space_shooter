@@ -1,8 +1,0 @@
-.bullet {
-    position: absolute;
-    bottom: 20px;
-    width: 20px;
-    height: 40px;
-    background-color: #d3cc00;
-    transition: bottom 140ms linear;
-}
